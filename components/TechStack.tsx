@@ -9,7 +9,7 @@ import SectionHeading from "./ui/SectionHeading";
 import Reveal from "./ui/Reveal";
 
 export default function TechStack() {
-  const [filter, setFilter] = useState("Frontend");
+  const [filter, setFilter] = useState("All");
   const visible =
     filter === "All" ? skills : skills.filter((s) => s.groups.includes(filter));
 

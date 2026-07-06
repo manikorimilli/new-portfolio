@@ -123,7 +123,7 @@ export const skills: Skill[] = [
   { name: "Git", slug: "git", groups: ["Tools"] },
   { name: "Docker", slug: "docker", groups: ["Tools"] },
   { name: "Postman", slug: "postman", groups: ["Tools"] },
-  { name: "Turborepo", slug: "turborepo", groups: ["Tools"] },
+  
 ];
 
 export const skillFilters = [
