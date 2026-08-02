@@ -41,13 +41,13 @@ export default function About() {
             </Reveal>
             <Reveal delay={0.1}>
               <p className="mt-5 text-sm leading-relaxed text-muted md:text-base">
-                My path wasn&apos;t the default one: an electronics degree, a
-                detour through training AI models, then full-time product
-                engineering. Each step taught me something the next one needed
-                — signals theory made real-time systems intuitive, evaluating
-                LLMs made me precise about quality, and shipping analytics at
-                DeeptaAI taught me that the best engineering is invisible
-                until you notice how fast a decision became.
+                My path started with a CS degree, a detour through training AI
+                models, then full-time product engineering. Each step taught
+                me something the next one needed — evaluating LLMs made me
+                precise about quality, building chatbot platforms sharpened my
+                instincts for reliability, and shipping analytics at DeeptaAI
+                taught me that the best engineering is invisible until you
+                notice how fast a decision became.
               </p>
             </Reveal>
             <Reveal delay={0.2}>

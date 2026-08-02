@@ -11,7 +11,7 @@ export type Experience = {
 export const experiences: Experience[] = [
   {
     company: "DeeptaAI",
-    role: "Software Development Engineer — I",
+    role: "Software Development Engineer",
     period: "Aug 2025 — Present",
     location: "Hyderabad",
     summary:
@@ -20,6 +20,7 @@ export const experiences: Experience[] = [
       "Built Compass — interactive dashboards that surface user behaviors correlated with long-term retention.",
       "Shipped visualization tooling that cut data-interpretation time by ~40% for product teams.",
       "Created Third-Party Cohort Sync end-to-end: cohort exports, webhook integrations, recurring sync management and monitoring.",
+      "Designed and developed reusable UI components following modern frontend best practices, improving code maintainability and accelerating feature development.",
       "Actively participated in code reviews, debugging, testing, and deployment throughout the development lifecycle.",
     ],
     stack: ["React", "TypeScript", "Node.js", "MySQL", "MongoDB", "REST APIs"],
@@ -27,12 +28,13 @@ export const experiences: Experience[] = [
   {
     company: "Apxor",
     role: "Associate Software Development Engineer",
-    period: "Aug 2022 — Aug 2025",
+    period: "Aug 2024 — Jul 2025",
     location: "Hyderabad",
     summary: "Hardened chatbot platforms and secured the APIs behind them.",
     highlights: [
       "Resolved and debugged issues across multiple chatbot workflows on the Kore.ai platform, improving conversation reliability and user experience.",
       "Developed and implemented secure public API encryption/decryption mechanisms to protect sensitive data and ensure compliance with security best practices.",
+      "Contributed to the Hearzap project's frontend by developing reusable UI components and enhancing application usability.",
       "Built scalable, responsive frontend features with React.js and TypeScript, delivering user-centric web application experiences.",
     ],
     stack: ["React", "TypeScript", "Kore.ai", "Node.js", "Security APIs"],
@@ -40,7 +42,7 @@ export const experiences: Experience[] = [
   {
     company: "Outlier AI",
     role: "Freelance — AI Evaluation",
-    period: "Apr 2022 — Aug 2022",
+    period: "Jan 2024 — Jul 2024",
     location: "Remote",
     summary: "Trained and benchmarked large language models on code.",
     highlights: [
@@ -153,9 +155,9 @@ export const traits = [
 ];
 
 export const education = {
-  degree: "B.Tech in Electronics & Communication Engineering",
+  degree: "B.Tech in Computer Science and Engineering",
   school: "Aditya College of Engineering",
-  period: "2018 — 2022",
+  period: "2020 — 2024",
   detail: "CGPA 8.1 · Surampalem, Andhra Pradesh",
 };
 
